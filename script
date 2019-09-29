@@ -20,7 +20,7 @@ enable_backup_running_vm="1"
 ################################################## Quick settings end
 
 # Version v1.1.5.1 - 2019-09-30
-# Added: check before backup of .snap.img files and remove them
+# Added: check before and after backup of .snap.img files and remove them
 #	 added parameter --wait to: virsh blockcommit $vm $disknumber (line 2191). This hopefully fixed the renaming of vdisk to vdisk.img.snap.img
 
 # Version v1.1.5 - 2019-02-06  
